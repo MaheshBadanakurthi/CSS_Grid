@@ -1,0 +1,35 @@
+.sg{
+    display:grid;
+    grid-template-columns: 10% 100px 150px;
+    
+    grid-template-rows: 100px 100px 100px;
+    grid-auto-rows: minmax(150px,auto);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    box-sizing: border-box;
+    column-gap: 10px;
+    row-gap: 10px; 
+  
+}
+
+.sgt{
+    text-align: center;
+    font-weight: bold;
+    background-color: antiquewhite;
+    border:1px solid blue
+}
+.kg{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.sgr{
+    display:grid;
+    grid-template-columns: 80px  100px 120px;
+    
+    
+    grid-auto-rows: minmax(122px,auto);
+    column-gap: 10px;
+    row-gap: 10px; 
+  
+}
